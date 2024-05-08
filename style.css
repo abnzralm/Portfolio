@@ -53,3 +53,14 @@ nav li:first-child{
 nav a:hover {
     color: rgb(247, 255, 13);
 }
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content{
+    max-width: 600px;
+}
