@@ -9,7 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.6.6/tailwind.css"
+        integrity="sha512-mtdYI7Os+WCWzb1uY4JgxJUaU4H2ogBXS5jlJP8QOfVQg6r4H96e9x3dPy1obDo39pUQZ7XIiRB4dPFMELAH/Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css"
+        integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -20,7 +27,7 @@
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#home">About Me</a>
-            <a href="#home">Contact</a>
+            <a href="#home">Projects</a>
             <a href="#home">Let's Talk</a>
         </nav>
     </header>
@@ -42,9 +49,6 @@
         </section>
 
         <section class="about">
-
-            <h3>About Me</h3>
-
             <div class="about-content">
                 <div class="content1">
                     <h3>Who am I? </h3>
@@ -58,35 +62,192 @@
                         molestias dolorem blanditiis pariatur cum magnam sed quam magni molestiae placeat officia
                         ratione
                         assumenda adipisci? Officia, repudiandae.Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit.
-                        Maxime beatae repellendus nulla expedita ea
-                        molestiae fuga error tempore illum! Quasi commodi facilis laudantium sapiente assumenda aut
-                        praesentium at minima totam. Repellendus quibusdam voluptatibus iusto, placeat possimus
-                        voluptate
-                        recusandae alias, id quam unde quidem adipisci ex corporis nobis, consequuntur hic error
-                        quisquam
-                        qui deserunt laboriosam velit. In recusandae inventore, fuga possimus nobis minima eligendi
-                        velit
-                        temporibus aliquam ex, quibusdam, ducimus ullam.</p>
-                </div>
-
-                <div class="content2">
-                    <h3>Skills</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi labore libero maxime recusandae
-                        quos
-                        maiores assumenda nulla hic consequatur, adipisci quasi vitae unde rerum magni aliquid tempora
-                        iure?
-                        Excepturi molestiae aperiam ad voluptates ducimus nulla modi, dolores dignissimos eum
-                        accusantium
-                        hic facere maiores. Saepe sunt, fuga accusamus soluta voluptate ut reprehenderit et quaerat
-                   </p>
+                        elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, beatae voluptate
+                        accusantium delectus molestias dolores autem tempora? Officia vero at ad rem mollitia culpa iure
+                        neque saepe atque. Minus repudiandae mollitia velit dignissimos perspiciatis possimus optio
+                        autem eius voluptatem. Incidunt repudiandae ratione inventore odio expedita odit tempora in,
+                        reprehenderit suscipit impedit officia magnam libero eligendi hic optio neque necessitatibus
+                        perspiciatis ut temporibus veritatis accusantium sapiente! Aut fuga ducimus a sit.
+                    </p>
                 </div>
             </div>
         </section>
 
-        <section class="projects">
+        <section>
+            <div class="container my-12 mx-auto px-4 md:px-12">
+                <div class="flex flex-wrap -mx-1 lg:-mx-4">
 
+                    <!-- Column -->
+                    <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+                        <!-- Article -->
+                        <article class="overflow-hidden rounded-lg shadow-lg">
+
+                            <a href="#">
+                                <img alt="Placeholder" class="block h-auto w-full"
+                                    src="https://picsum.photos/600/400/?random">
+                            </a>
+
+                            <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                                <h1 class="text-lg">
+                                    <a class="no-underline hover:underline text-black" href="#">
+                                        Article Title
+                                    </a>
+                                </h1>
+                                <p class="text-grey-darker text-sm">
+                                    11/1/19
+                                </p>
+                            </header>
+
+                            <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                                <a class="flex items-center no-underline hover:underline text-black" href="#">
+                                    <img alt="Placeholder" class="block rounded-full"
+                                        src="https://picsum.photos/32/32/?random">
+                                    <p class="ml-2 text-sm">
+                                        Author Name
+                                    </p>
+                                </a>
+                                <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+                                    <span class="hidden">Like</span>
+                                    <i class="fa fa-heart"></i>
+                                </a>
+                            </footer>
+
+                        </article>
+                        <!-- END Article -->
+
+                    </div>
+                    <!-- END Column -->
+
+                    <!-- Column -->
+                    <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+                        <!-- Article -->
+                        <article class="overflow-hidden rounded-lg shadow-lg">
+
+                            <a href="#">
+                                <img alt="Placeholder" class="block h-auto w-full"
+                                    src="https://picsum.photos/600/400/?random">
+                            </a>
+
+                            <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                                <h1 class="text-lg">
+                                    <a class="no-underline hover:underline text-black" href="#">
+                                        Article Title
+                                    </a>
+                                </h1>
+                                <p class="text-grey-darker text-sm">
+                                    11/1/19
+                                </p>
+                            </header>
+
+                            <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                                <a class="flex items-center no-underline hover:underline text-black" href="#">
+                                    <img alt="Placeholder" class="block rounded-full"
+                                        src="https://picsum.photos/32/32/?random">
+                                    <p class="ml-2 text-sm">
+                                        Author Name
+                                    </p>
+                                </a>
+                                <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+                                    <span class="hidden">Like</span>
+                                    <i class="fa fa-heart"></i>
+                                </a>
+                            </footer>
+
+                        </article>
+                        <!-- END Article -->
+
+                    </div>
+
+                    <!-- Column -->
+                    <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+                        <!-- Article -->
+                        <article class="overflow-hidden rounded-lg shadow-lg">
+
+                            <a href="#">
+                                <img alt="Placeholder" class="block h-auto w-full"
+                                    src="https://picsum.photos/600/400/?random">
+                            </a>
+
+                            <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                                <h1 class="text-lg">
+                                    <a class="no-underline hover:underline text-black" href="#">
+                                        Article Title
+                                    </a>
+                                </h1>
+                                <p class="text-grey-darker text-sm">
+                                    11/1/19
+                                </p>
+                            </header>
+
+                            <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                                <a class="flex items-center no-underline hover:underline text-black" href="#">
+                                    <img alt="Placeholder" class="block rounded-full"
+                                        src="https://picsum.photos/32/32/?random">
+                                    <p class="ml-2 text-sm">
+                                        Author Name
+                                    </p>
+                                </a>
+                                <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+                                    <span class="hidden">Like</span>
+                                    <i class="fa fa-heart"></i>
+                                </a>
+                            </footer>
+
+                        </article>
+                        <!-- END Article -->
+
+                    </div>
         </section>
+
+        <section>
+            <h1>Send Message</h1>
+            <div class="wpcf7" id="wpcf7-f156-p143-o1 formwrap">
+                <form>
+                    <div>
+                        <input type="hidden" name="_wpcf7" value="156">
+                        <input type="hidden" name="_wpcf7_version" value="3.7.2">
+                        <input type="hidden" name="_wpcf7_locale" value="en_US">
+                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f156-p143-o1">
+                        <input type="hidden" name="_wpnonce" value="d1da331d93">
+                    </div>
+                    <p>
+                        <span class="wpcf7-form-control-wrap Name">
+                            <input type="text" name="Name" value="" size="40"
+                                class="nameinput wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                aria-required="true" aria-invalid="false" placeholder="Name">
+                        </span>
+                        <span class="wpcf7-form-control-wrap Email">
+                            <input type="email" name="Email" size="40"
+                                class="emailinput wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                                aria-required="true" aria-invalid="false" placeholder="Email">
+                        </span>
+                        <span class="wpcf7-form-control-wrap Message">
+                            <textarea name="Message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea"
+                                aria-invalid="false" placeholder="Message"></textarea>
+                        </span>
+                        <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit btn">
+                    </p>
+                </form>
+            </div>
+        </section>
+
+        <section class="footer">
+            <footer class="footer">
+                <div class="icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <p class="company-name">
+                        Abnzr &copy; 2023, ALL Rights Reserved
+                    </p>
+                </div>
+            </footer>
+        </section>
+
     </main>
 
 </body>
