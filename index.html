@@ -21,16 +21,18 @@
 
 <body>
 
-    <!--  -->
     <header class="header">
         <a href="#" class="logo">abnzr.<span>dev</span></a>
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#home">About Me</a>
-            <a href="#home">Projects</a>
-            <a href="#home">Let's Talk</a>
-        </nav>
-    </header>
+
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a href="#work">Our Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#careers">Careers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </header>
 
     <main>
         <section class="home">
@@ -38,171 +40,105 @@
                 <h3>Hello 👋</h3>
                 <h1>I am Abenezer</h1>
                 <h3>And I am <span>Frontend Prospect</span></h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae unde ea adipisci nemo laudantium,
+                <p>Passionate front-end developer and avid learner in Addis Ababa, Ethiopia📌
                 </p>
 
                 <a href="#" class="btn">Download CV</a>
             </div>
             <div class="home-img">
-                <img src="assets/kk.jpg" alt="Owner Image">
+                <img src="assets/pfp.png" alt="Owner Image">
             </div>
         </section>
 
-        <section class="about">
+        <section class="about" id="about">
             <div class="about-content">
                 <div class="content1">
                     <h3>Who am I? </h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi labore libero maxime recusandae
-                        quos
-                        maiores assumenda nulla hic consequatur, adipisci quasi vitae unde rerum magni aliquid tempora
-                        iure?
-                        Excepturi molestiae aperiam ad voluptates ducimus nulla modi, dolores dignissimos eum
-                        accusantium
-                        hic facere maiores. Saepe sunt, fuga accusamus soluta voluptate ut reprehenderit et quaerat
-                        molestias dolorem blanditiis pariatur cum magnam sed quam magni molestiae placeat officia
-                        ratione
-                        assumenda adipisci? Officia, repudiandae.Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, beatae voluptate
-                        accusantium delectus molestias dolores autem tempora? Officia vero at ad rem mollitia culpa iure
-                        neque saepe atque. Minus repudiandae mollitia velit dignissimos perspiciatis possimus optio
-                        autem eius voluptatem. Incidunt repudiandae ratione inventore odio expedita odit tempora in,
-                        reprehenderit suscipit impedit officia magnam libero eligendi hic optio neque necessitatibus
-                        perspiciatis ut temporibus veritatis accusantium sapiente! Aut fuga ducimus a sit.
-                    </p>
-                </div>
+                    <div class="p_holder">
+                        <p>As a freshman at Addis Ababa University, I, Abenezer Alemayehu, have been driven by a strong
+                            passion for programming since my high school years. Currently, I am a directed learner in
+                            website design and web development, where I am actively honing my skills to excel in this
+                            field.In the long run I want to pursue as a software engineer to build and deploy useful softwares.
+                        </p>
+                    </div>
+                  </div>
+            </div>
+
+            <div>
+                <ul class="wrap">
+                    <li>
+                        <input type="radio" id="s1" name="section" />
+                        <span class="date">2024-05-08</span>
+                        <span class="circle"></span>
+                        <div class="content">
+                            <label class="lab" for="s1">Educational Status Currently</label>
+                            <p>As a freshman at Addis Ababa University, I, Abenezer Alemayehu, have been driven by a
+                                strong
+                                passion for programming since my high school years. Currently, I am a directed learner
+                                in
+                                website design and web development, where I am actively honing my skills to excel in
+                                this
+                                field.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="s2" name="section" />
+                        <span class="date">2023-05-08</span>
+                        <span class="circle"></span>
+                        <div class="content">
+                            <label class="lab" for="s2"> High School Senior Year @SSC</label>
+                            <p>High School senior student who has very interest in programming and the low level
+                                programming language especially</p>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="s3" name="section" />
+                        <span class="date">2022-05-08</span>
+                        <span class="circle"></span>
+                        <div class="content">
+                            <label class="lab" for="s3"> Highschool @SSC</label>
+                            <p>High School student who has very interest in programming and the Python programming
+                                language especially</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </section>
 
-        <section>
-            <div class="container my-12 mx-auto px-4 md:px-12">
-                <div class="flex flex-wrap -mx-1 lg:-mx-4">
-
-                    <!-- Column -->
-                    <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-
-                        <!-- Article -->
-                        <article class="overflow-hidden rounded-lg shadow-lg">
-
-                            <a href="#">
-                                <img alt="Placeholder" class="block h-auto w-full"
-                                    src="https://picsum.photos/600/400/?random">
-                            </a>
-
-                            <header class="flex items-center justify-between leading-tight p-2 md:p-4">
-                                <h1 class="text-lg">
-                                    <a class="no-underline hover:underline text-black" href="#">
-                                        Article Title
-                                    </a>
-                                </h1>
-                                <p class="text-grey-darker text-sm">
-                                    11/1/19
-                                </p>
-                            </header>
-
-                            <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                                <a class="flex items-center no-underline hover:underline text-black" href="#">
-                                    <img alt="Placeholder" class="block rounded-full"
-                                        src="https://picsum.photos/32/32/?random">
-                                    <p class="ml-2 text-sm">
-                                        Author Name
-                                    </p>
-                                </a>
-                                <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                                    <span class="hidden">Like</span>
-                                    <i class="fa fa-heart"></i>
-                                </a>
-                            </footer>
-
-                        </article>
-                        <!-- END Article -->
-
+        <section id="project">
+            <h1>My projects</h1>
+            <div class="cont">
+                
+                <main class="grid">
+                  <article>
+                    <img src="assets/2.png" alt="Sample photo">
+                    <div class="text">
+                      <h3>Taco Shop HTML website</h3>
+                      <p>I use html only to make this website🧑‍💻</p>
+                      <a href="https://github.com/abnzralm/taco-html" class="btn btn-primary btn-block">Github Link</a>
                     </div>
-                    <!-- END Column -->
-
-                    <!-- Column -->
-                    <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-
-                        <!-- Article -->
-                        <article class="overflow-hidden rounded-lg shadow-lg">
-
-                            <a href="#">
-                                <img alt="Placeholder" class="block h-auto w-full"
-                                    src="https://picsum.photos/600/400/?random">
-                            </a>
-
-                            <header class="flex items-center justify-between leading-tight p-2 md:p-4">
-                                <h1 class="text-lg">
-                                    <a class="no-underline hover:underline text-black" href="#">
-                                        Article Title
-                                    </a>
-                                </h1>
-                                <p class="text-grey-darker text-sm">
-                                    11/1/19
-                                </p>
-                            </header>
-
-                            <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                                <a class="flex items-center no-underline hover:underline text-black" href="#">
-                                    <img alt="Placeholder" class="block rounded-full"
-                                        src="https://picsum.photos/32/32/?random">
-                                    <p class="ml-2 text-sm">
-                                        Author Name
-                                    </p>
-                                </a>
-                                <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                                    <span class="hidden">Like</span>
-                                    <i class="fa fa-heart"></i>
-                                </a>
-                            </footer>
-
-                        </article>
-                        <!-- END Article -->
-
+                  </article>
+                  <article>
+                    <img src="assets/3.png" alt="Sample photo">
+                    <div class="text">
+                      <h3>Taco Shop CSS Website</h3>
+                      <p>Use CSS to edit the website</p>
+                      <a href="https://github.com/abnzralm/taco-css" class="btn btn-primary btn-block">Github Link</a>
                     </div>
-
-                    <!-- Column -->
-                    <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-
-                        <!-- Article -->
-                        <article class="overflow-hidden rounded-lg shadow-lg">
-
-                            <a href="#">
-                                <img alt="Placeholder" class="block h-auto w-full"
-                                    src="https://picsum.photos/600/400/?random">
-                            </a>
-
-                            <header class="flex items-center justify-between leading-tight p-2 md:p-4">
-                                <h1 class="text-lg">
-                                    <a class="no-underline hover:underline text-black" href="#">
-                                        Article Title
-                                    </a>
-                                </h1>
-                                <p class="text-grey-darker text-sm">
-                                    11/1/19
-                                </p>
-                            </header>
-
-                            <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                                <a class="flex items-center no-underline hover:underline text-black" href="#">
-                                    <img alt="Placeholder" class="block rounded-full"
-                                        src="https://picsum.photos/32/32/?random">
-                                    <p class="ml-2 text-sm">
-                                        Author Name
-                                    </p>
-                                </a>
-                                <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                                    <span class="hidden">Like</span>
-                                    <i class="fa fa-heart"></i>
-                                </a>
-                            </footer>
-
-                        </article>
-                        <!-- END Article -->
-
+                  </article>
+                  <article>
+                    <img src="assets/4.png" alt="Sample photo">
+                    <div class="text">
+                      <h3>ACME ROCKET</h3>
+                      <p>Uses HTML,CSS and Tailwind to make this amazing</p>
+                      <a href="https://github.com/abnzralm/taco-tailwind" class="btn btn-primary btn-block">Github Link</a>
                     </div>
+                  </article>
+                </main>
+              </div>
         </section>
 
-        <section>
+        <section id="contact">
             <h1>Send Message</h1>
             <div class="wpcf7" id="wpcf7-f156-p143-o1 formwrap">
                 <form>
