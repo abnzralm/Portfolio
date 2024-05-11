@@ -251,6 +251,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 30px ;
     margin-bottom: 40px;
     border-bottom: 2px solid #ededed;
     min-height: 100vh;
@@ -267,8 +268,7 @@ body {
 
 
 .about p {
-    font-size: 2rem;
-    font-variant: initial;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -373,7 +373,7 @@ input:checked~.content p {
 /* Project Section */
 
 .project h1{
-    align-items: center;
+    text-align: center;
     text-decoration: underline;
 }
 
@@ -499,8 +499,6 @@ textarea:focus {
     display: inline-block;
     outline: none;
     position: relative;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
 
@@ -591,6 +589,8 @@ textarea:focus {
     }
 }
 
+/* Footer */
+
 .footer {
     position: relative;
     bottom: 0;
@@ -607,7 +607,7 @@ textarea:focus {
 
 .icons a {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin: 0.5rem;
     color: #f4f4f4;
 }
