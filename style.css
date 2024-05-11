@@ -385,7 +385,7 @@ input:checked~.content p {
     align-items: last baseline;
 }
 
-.grid>article {
+.grid > article {
     border: 1px solid #ccc;
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
 }
@@ -586,45 +586,5 @@ textarea:focus {
 
     .btn {
         width: 110px;
-    }
-}
-
-/* Footer */
-
-.footer {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: #2F243A;
-    text-align: center;
-    color: #f4f4f4;
-}
-
-.icons {
-    padding: 5px;
-}
-
-.icons a {
-    text-decoration: none;
-    font-size: 1.6rem;
-    margin: 0.5rem;
-    color: #f4f4f4;
-}
-
-.company-name {
-    font-size: 1.6rem;
-    margin-top: 0.5rem;
-}
-
-@media (max-width: 500px) {
-    html {
-        font-size: 50%;
-    }
-}
-
-@media(min-width: 501px) and (max-width: 768px) {
-    html {
-        font-size: 50%;
     }
 }
