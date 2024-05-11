@@ -216,12 +216,28 @@ body {
     display: inline-block;
     padding: 12px 28px;
     background: #0ef;
-    border-radius: 40px;
     box-shadow: 0 0 10px #0ef;
     font-size: 16px;
-    color: #1f242d;
     text-decoration: none;
     letter-spacing: 1px;
+    margin-top: 30px;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000;
+}
+
+.btn:hover {
+    background: #fff;
+    outline: none;
+    box-shadow: 0 4px #cecece;
+    top: 2px;
+}
+
+.btn:active {
+    background: #fff;
+    outline: none;
+    box-shadow: 0 0 #cecece;
+    top: 6px;
 }
 
 .home-img {
@@ -390,12 +406,11 @@ input:checked~.content p {
 }
 
 form {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 965px;
     height: 450px;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 30px;
     background-clip: padding-box;
     overflow: hidden;
 }
@@ -404,7 +419,6 @@ textarea {
     background: rgba(0, 0, 0, 0.4);
     width: 894px;
     height: 110px;
-    border: none;
     background-clip: padding-box;
     display: block;
     font-size: 18px;
@@ -421,7 +435,6 @@ select {
     height: 48px;
     line-height: 1.5;
     font-size: 1.4em;
-    border: none;
     color: #fff;
     display: block;
     background: transparent;
@@ -431,18 +444,10 @@ select {
     font-size: 18px;
 }
 
-.p_holder p {
-    font-size: 18px;
-    text-align: center;
-    padding: 0 4em 0;
-}
-
-
 .nameinput,
 .emailinput {
     width: 894px;
     height: 48px;
-    border: none;
     border-radius: 10px;
     background-clip: padding-box;
     display: block;
@@ -460,11 +465,6 @@ input[type=submit] {
 input.nameinput {
     background: rgba(0, 0, 0, 0.4);
     padding-left: 45px;
-}
-
-
-.project h1 {
-    text-align: center;
 }
 
 input.emailinput {
@@ -491,33 +491,6 @@ textarea:focus {
     background-color: rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 5px 1px rgba(255, 255, 255, .5);
     overflow: hidden;
-}
-
-.btn {
-    display: inline-block;
-    padding: 12px 28px;
-    background: #0ef;
-    border-radius: 40px;
-    box-shadow: 0 0 10px #0ef;
-    font-size: 16px;
-    color: #1f242d;
-    text-decoration: none;
-    letter-spacing: 1px;
-    margin-top: 30px;
-}
-
-.btn:hover {
-    background: #fff;
-    outline: none;
-    box-shadow: 0 4px #cecece;
-    top: 2px;
-}
-
-.btn:active {
-    background: #fff;
-    outline: none;
-    box-shadow: 0 0 #cecece;
-    top: 6px;
 }
 
 .flat {
