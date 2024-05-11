@@ -211,7 +211,7 @@ body {
 }
 
 .home-content p {
-    font-size: 19px;
+    font-size: 20px;
     line-height: 28px;
     margin-bottom: 30px;
 }
@@ -239,7 +239,7 @@ body {
     flex-wrap: wrap;
     margin-bottom: 40px;
     border-bottom: 2px solid #ededed;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .about h3 {
